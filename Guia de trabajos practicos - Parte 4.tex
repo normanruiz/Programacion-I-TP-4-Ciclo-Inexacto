@@ -1,0 +1,85 @@
+% Declaracion del tipo de documento y parametros basicos de la hoja
+\documentclass[12pt,a4paper,twoside]{article}
+
+% Package: inputenc - Este paquete permite al usuario especificar una codificación de entrada
+\usepackage[utf8]{inputenc}
+
+% Package: Babel - Este paquete administra reglas tipográficas (y otras) determinadas culturalmente para una amplia gama de idiomas.
+%\usepackage[spanish]{babel}
+
+%
+\usepackage[T1]{fontenc}
+
+% Packages: amsmath - Se adapta para su uso en LaTeX la mayoría de las características matemáticas que se encuentran en AMS-TeX; Es altamente recomendado como complemento de la composición matemática seria en LaTeX.
+\usepackage{amsmath}
+
+%Package: enumerate - Este paquete le da al entorno de enumeración un argumento opcional lo que determina el estilo en el que se imprime el contador.
+\usepackage{enumerate}
+
+%Package: tabto - Se definen dos nuevos comandos de posicionamiento de texto: \tab y \tabto
+\usepackage{tabto}
+
+%
+\usepackage{amsfonts}
+
+%
+\usepackage{amssymb}
+
+% Este paquete permite la insercion de imagenes en el documento, con esta linea habilito la insercion de archivos .eps
+\usepackage[dvips]{graphicx}
+
+% 
+\usepackage{lettrine}
+
+%
+\usepackage{lmodern}
+
+% Establece los margenes de la hoja
+\usepackage[left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+
+% 
+\usepackage{pstricks,pst-node}
+
+%
+\usepackage{textcomp}
+
+% Con esta linea se declara el autor del documento
+\author{Norman Ruiz}
+
+% Con esta linea se declara el titulo del documento
+\title{TRABAJO PRACTICO \linebreak Nº 4 \linebreak (Ciclo Inexacto)}
+
+%
+\usepackage[light]{draftcopy}
+%
+\draftcopyName{Norman Ruiz}{130}
+%
+\draftcopyFirstPage{2}
+
+\usepackage{fancyhdr}
+\lfoot[\today]{\today}
+\cfoot[\thepage]{\thepage}
+\rfoot[Norman Ruiz]{Norman Ruiz}
+\renewcommand{\footrulewidth}{.5pt}
+\lhead[]{}
+\chead[]{}
+\rhead[]{Trabajo Practico Nº 4 (Ciclo Inexacto)}
+\renewcommand{\headrulewidth}{.5pt}
+\pagestyle{fancy}
+
+
+\begin{document}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{Ejercicio \textnumero 1}
+
+\hspace*{1cm}
+
+\newpage
+
+\end{document}
